@@ -8,3 +8,6 @@ String getDateBack({required int wayBack}) {
   String formattedDate = DateFormat('yyyy-MM-dd').format(wayBackDate);
   return formattedDate;
 }
+
+
+String getEditedNumeric({required int value}) => NumberFormat.compact().format(value);

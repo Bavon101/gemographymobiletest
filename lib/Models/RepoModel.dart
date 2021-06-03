@@ -183,7 +183,7 @@ class Item {
   int? openIssues;
   int? watchers;
   String? defaultBranch;
-  int? score;
+  double? score;
 
   factory Item.fromJson(Map<String, dynamic> json) => Item(
         id: json["id"],
@@ -254,7 +254,7 @@ class Item {
         archived: json["archived"],
         disabled: json["disabled"],
         openIssuesCount: json["open_issues_count"],
-        license: License.fromJson(json["license"]),
+        license:json["license"] != null ?License.fromJson(json["license"]):null,
         forks: json["forks"],
         openIssues: json["open_issues"],
         watchers: json["watchers"],

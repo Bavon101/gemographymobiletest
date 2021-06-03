@@ -10,7 +10,11 @@ class DataController {
         url,
       );
       log(response.body);
-      return response.body;
+      if (response.statusCode == 200) {
+        return response.body;
+      }
+
+      return 'error';
     } catch (e) {
       return 'error';
     }
