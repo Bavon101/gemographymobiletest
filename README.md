@@ -1,6 +1,6 @@
 # mobiletest
 
-A new Flutter project.
+<!-- A new Flutter project.
 
 ## Getting Started
 
@@ -13,4 +13,7 @@ A few resources to get you started if this is your first Flutter project:
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+samples, guidance on mobile development, and a full API reference. -->
+
+## Build using flutter
+I worked on the test using flutter, Meaning it will run on both platforms (Android/IOS)
